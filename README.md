@@ -271,7 +271,7 @@ class MyTest extends WordSpec with IdiomaticMockito
 IMPORTANT: A session is defined on a per-test basis, and only the mocks created within the scope of the session are 
 handled by it, so if you have class level fields with mocks, i.e. mocks that are not created within the test, they will
 be ignored by the session. If you use the same mocks in all or most of the tests and want to avoid the boilerplate while
-still usfing the advantages of strict stubbing then declare those mocks in a setup trait.
+still using the advantages of strict stubbing then declare those mocks in a setup trait.
 
 ```scala
 class MySpec extends WordSpec with Mockito {
